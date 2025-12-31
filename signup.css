@@ -1,0 +1,61 @@
+/* ====Large screen===== */
+@media(max-width: 1200px){
+    .form{
+        width: 35%;
+        margin: 150px auto;
+    }
+}
+/* ======Tablets======= */
+@media(max-width: 992px){
+    .form{
+        width: 50%;
+    margin: 120px auto;
+    }
+
+    #heading{
+        font-size: 1.1em;
+    }
+}
+/* ====Small Tablets & Large Phones==== */
+@media (max-width: 768px){
+    .form{
+        width: 70%;
+        margin: 100px auto;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    .welcome {
+    font-size: 40px;
+}
+}
+/* =====Mobile Phone====== */
+@media(max-width: 576px){
+    .form{
+        width: 90%;
+        margin: 80px auto;
+        border-radius: 20px;
+    }
+    #heading{
+        font-size: 1em;
+        margin: 1.5em;
+    }
+    .field{
+        padding: 0.5em;
+    }
+    .button2,
+    .button3{
+        font-size: 0.9em;
+        padding: 0.6em;
+    }
+}
+
+/* ===Very Small Devices==== */
+@media(max-width: 360px){
+    .form{
+        width: 95%;
+        margin: 60px auto;
+    }
+    .input-field{
+        font-size: 0.85em;
+    }
+}

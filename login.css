@@ -1,0 +1,57 @@
+/* -----GLOBAL FIX------- */
+* {
+    box-sizing: border-box;
+}
+
+/* =====DEFAULT (DESKTOP)====== */
+.form {
+    width: 400px;
+    max-width: 90%;
+    margin: 120px auto;
+}
+
+/* -----TABLETS------ */
+@media (max-width: 992px){
+    .welcome {
+        font-size: 42px;
+    }
+    .form{
+    width: 70%;
+    margin: 100px auto;
+}
+}
+
+/* ======MOBILE PHONES======== */
+@media(max-width: 576px){
+    .welcome{
+        font-size: 26px;
+    }
+    .form{
+        width: 95%;
+        margin: 60px auto;
+        padding: 1.2em;
+        border-radius: 18px;
+    }
+    .button1,
+    .button2,
+    .button3{
+        font-size: 0.95rem;
+        padding: 0,6em;
+    }
+    .field{
+        padding: 0.5rem;
+    }
+}
+
+/* =====VERY SMALLL SCREENS (<= 360px)======== */
+@media (max-width: 360px){
+    .welcome{
+        font-size: 22px;
+    }
+    .form{
+        padding: 1em;
+    }
+    #heading {
+        font-size: 1em;
+    }
+}

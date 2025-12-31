@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/
+    dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4
+    J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <style>
+        /* From Uiverse.io by Praashoo7 */ 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    width: 20%;
+    margin: 200px auto;
+
+}
+
+.form:hover {
+    transform: scale(1.05);
+    border: 1px solid black;
+}
+
+#heading {
+    text-align: center;
+    margin: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: white;
+}
+
+.input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+}
+
+.form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+.button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+    width: 100%;
+}
+
+.button1:hover {
+    background-color: black;
+    color: white;
+}
+
+.button3 {
+    margin-bottom: 3em;
+    align-items: center;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+}
+
+.button3:hover {
+    background-color: red;
+    color: white;
+}
+.forgot-wrapped{
+    display: flex;
+    justify-content: center;
+}
+.welcome {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: red;
+}
+.background {
+    background: linear-gradient(
+        to right,
+        rgba(161, 140, 209, 1),
+        rgba(251, 194, 235, 0.3)
+    );
+}
+    </style>
+</head>
+<body class="background">
+    <header>
+        <p class="welcome">Welcome To Expense Trader</p>
+    </header>
+    <!-- From Uiverse.io by Praashoo7 --> 
+<form class="form">
+    <p id="heading">Login</p>
+    <div class="field">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+</svg>
+        <input autocomplete="off" placeholder="E-mail" class="input-field" type="text">
+    </div>
+    <div class="field">
+    <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"></path>
+    </svg>
+        <input placeholder="Password" class="input-field" type="password">
+    </div>
+    <div class="btn">
+    <button type="submit" class="button1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    </div>
+    <p style="color: white; text-align: center;">Don't have an account? <a style="text-decoration: underline; color: red;" href="./signup.html">Sign UP</a></p>
+    <div class="forgot-wrapped">
+        <a href="forgotpassword.html"><button type="button" class="button3">Forgot Password</button>
+    </div>
+    </a>
+</form>
+<script src="https://cdn.jsdelivr.net/npm/bo
+otstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiP
+Vlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="login.js"></script>
+</body>
+</html>
