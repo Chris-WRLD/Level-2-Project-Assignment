@@ -27,6 +27,6 @@ document.addEventListener("DOMContentLoaded", ()=> {
         localStorage.setItem("users",JSON.stringify(users));
 
         alert("Password reset successful");
-        window.location.href = "login.html"
+        window.location.href = "index.html"
     })
 })
